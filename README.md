@@ -1,3 +1,7 @@
+#参考资料
+
+- [Try Ruby](http://tryruby.org)
+
 # Ruby 简介
 
 ## 要点
