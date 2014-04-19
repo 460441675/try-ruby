@@ -230,4 +230,47 @@ Ruby 是优美的：
 ```
 这个例子充分的说明了 Ruby 的面向对象特性。
 
-# Ruby 的类（Class）
+## 11. 方法（Method）
+
+一个简单的方法结构：
+```ruby
+def method_name
+  # 逻辑代码写在这里
+end
+```
+
+举例，写一个在屏幕上输出 "Hello World!" 的方法：
+```ruby
+def hello_world
+  puts "Hello World!"
+end
+
+hello_world # 调用该方法输出文字，输出时你会发现代码返回值是 nil，这个会在后面解释到。
+```
+
+一个带输入参数的方法结构：
+```ruby
+def method_name(arg1, arg2, ..., argN)
+  # 逻辑代码写在这里
+end
+```
+
+举例，写一个能根据输入内容在屏幕上输出 "Hello <输入内容>!" 的方法：
+```ruby
+def hello(input_string)
+  puts "Hello #{input_string}!"
+end
+
+hello("China") # 调用该方法输出文字
+hello "China" # 可以省略掉括号
+```
+
+在 Ruby 中，方法都有返回值，如没有特别定义返回值，则默认返回最后一行代码的结果：
+```ruby
+def hello(input_string)
+  puts "Hello #{input_string}!"
+  'Result' # 运行并对比一下先前的代码所输出的结果
+end
+```
+
+## 12. 类（Class）
