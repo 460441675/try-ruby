@@ -268,8 +268,8 @@ hello "China" # 可以省略掉括号
 在 Ruby 中，方法都有返回值，如没有特别定义返回值，则默认返回最后一行代码的结果：
 ```ruby
 def hello(input_string)
-  puts "Hello #{input_string}!"
-  'Result' # 运行并对比一下先前的代码所输出的结果
+  puts "Hello #{input_string}!" # 需要解释下单引号和双引号的区别
+  "Result" # 运行并对比一下先前的代码所输出的结果
 end
 ```
 
