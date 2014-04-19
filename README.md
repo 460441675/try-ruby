@@ -228,7 +228,7 @@ Ruby 是优美的：
 10.times { puts "Hello World!" }
 10.times { p "Hello World!" } # 还可以更短
 ```
-这个例子充分的说明了 Ruby 的面向对象特性。
+这个例子充分的说明了 Ruby 的面向对象特性，也含有很多其他前面所说到的基础知识。
 
 ## 11. 方法（Method）
 
