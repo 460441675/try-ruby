@@ -1,6 +1,9 @@
-#参考资料
+# 在线学习资源
 
 - [Try Ruby](http://tryruby.org)
+- [Code School](https://www.codeschool.com)
+- [Tree House](http://teamtreehouse.com) - 强烈推荐
+- [《诱人的 Ruby》系列课程](http://edu.51cto.com/course/courseList/id-30.html)
 
 # Ruby 简介
 
