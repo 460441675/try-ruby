@@ -135,13 +135,13 @@ ticket.sort!
 如何快速替换文本中的文字：
 ```ruby
 text = "Hello World!"
-test["World"] = "China" # 方括号中的内容会匹配文本中第一个与之相符的字符串。
-test # 看看替换的结果
+text["World"] = "China" # 方括号中的内容会匹配文本中第一个与之相符的字符串。
+text # 看看替换的结果
 
 # 让我们再看看如何判断字符串中是否包含指定的内容，这里引入了布尔值的概念。
-test.include? "World" # 在 ruby 中，所有返回布尔值的方法都需要在末尾加上问号，这也是更加符合自然语言的优美之处。
-test.include? "China"
-test.include?("China") # 这与上面的代码是一样的，ruby 可以省略掉方法签名的括号。
+text.include? "World" # 在 ruby 中，所有返回布尔值的方法都需要在末尾加上问号，这也是更加符合自然语言的优美之处。
+text.include? "China"
+text.include?("China") # 这与上面的代码是一样的，ruby 可以省略掉方法签名的括号。
 ```
 
 如何将一首诗的每一行反转过来：
