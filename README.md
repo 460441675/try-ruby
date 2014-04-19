@@ -158,7 +158,15 @@ print poem.lines.reverse.join # 结合使用这些东西，就能实现我们的
 
 想一想，你如何利用已经学过的其他编程语言快速的生成一个包含1到10共10个数字的数组？
 
-(需要其他语言的实现例子)
+C语言实现参考：
+```c
+int i;
+int myArray[10];
+for (i = 0; i < 10; i++)
+{
+  myArray[i] = i + 1;
+}
+```
 
 来瞧瞧 Ruby 怎么做：
 ```ruby
@@ -223,7 +231,18 @@ end
 
 想一想，如何用你们所知道的其他语言快速输出10遍 "Hello World!"？
 
-（需要其他语言的实现例子）
+C语言实现参考：
+```c
+#include<stdio.h>
+
+main() {
+  int i;
+  for (i = 0; i < 10; i++)
+  {
+    printf("Hello World!");
+  }
+}
+```
 
 Ruby 是优美的：
 ```ruby
