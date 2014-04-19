@@ -236,7 +236,7 @@ Ruby 是优美的：
 ```ruby
 def method_name
   # 逻辑代码写在这里
-end
+end # ruby 的代码块都是以 end 关键字作为结束的。
 ```
 
 举例，写一个在屏幕上输出 "Hello World!" 的方法：
